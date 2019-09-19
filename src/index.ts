@@ -1,8 +1,11 @@
+import { MatchReader } from "./MatchReader";
 import { CsvFileReader } from "./CsvFileReader";
 import { MatchResult } from "./MatchResult";
 
-const reader = new CsvFileReader("football.csv");
-reader.read();
+// create obj that satisfies 'DataReader' interface
+
+// create an instance of MatchReader and pass in something satisfying
+// the 'DataReader' Interface
 
 let chelseaWins = 0;
 
